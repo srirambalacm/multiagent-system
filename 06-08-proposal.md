@@ -9,7 +9,7 @@
 ---
 
 ## 1. Project Overview
-The objective is to build a centralized multiagent system that routes diverse user queries to specialized agents. The core layout consists of a prompt-based router and three distinct operational agents handling mathematics/vision, statistical/data analysis, and machine learning execution. 
+The objective is to build a centralized multi agent system that routes diverse user queries to specialized agents. The core layout consists of a prompt-based router and three distinct operational agents handling mathematics/vision, statistical/data analysis, and machine learning execution. 
 
 The final end state for the month is a single execution interface where a user can supply an arbitrary prompt, dataset, or image, and receive an output from the correct agent.
 

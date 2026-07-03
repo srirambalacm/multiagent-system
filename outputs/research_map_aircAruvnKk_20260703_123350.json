@@ -1,0 +1,90 @@
+{
+  "goal": "i want to understand this video: https://www.youtube.com/watch?v=aircAruvnKk",
+  "source_video": "https://www.youtube.com/watch?v=aircAruvnKk",
+  "topic": "neural networks",
+  "concepts": [
+    "neural networks",
+    "neurons",
+    "activation",
+    "input layer",
+    "hidden layers",
+    "output layer",
+    "weights",
+    "weighted sum",
+    "sigmoid function",
+    "activation function",
+    "biases"
+  ],
+  "mind_map": [
+    {
+      "concept": "neural networks",
+      "search_query": "artificial neural network architectures",
+      "papers": [
+        {
+          "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+          "url": "http://arxiv.org/abs/1609.04846v1"
+        },
+        {
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "url": "http://arxiv.org/abs/2306.14753v1"
+        }
+      ]
+    },
+    {
+      "concept": "neurons",
+      "search_query": "artificial neuron mathematical models",
+      "papers": [
+        {
+          "title": "Quantum control in artificial neurons with superconductor-ionic memory inserted in the feedback",
+          "url": "http://arxiv.org/abs/2401.00958v1"
+        },
+        {
+          "title": "The Artificial Scientist: Logicist, Emergentist, and Universalist Approaches to Artificial General Intelligence",
+          "url": "http://arxiv.org/abs/2110.01831v1"
+        }
+      ]
+    },
+    {
+      "concept": "activation",
+      "search_query": "neural network activation functions",
+      "papers": [
+        {
+          "title": "Optimal hierarchical modular topologies for producing limited sustained activation of neural networks",
+          "url": "http://arxiv.org/abs/1003.3081v1"
+        },
+        {
+          "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+          "url": "http://arxiv.org/abs/2502.01654v1"
+        }
+      ]
+    },
+    {
+      "concept": "input layer",
+      "search_query": "input layer feature representation",
+      "papers": [
+        {
+          "title": "Polynomial representations and categorifications of Fock Space",
+          "url": "http://arxiv.org/abs/1101.2456v3"
+        },
+        {
+          "title": "Finite-Dimensional Representations of Hyper Loop Algebras Over Non-Algebraically Closed Fields",
+          "url": "http://arxiv.org/abs/0711.0795v4"
+        }
+      ]
+    },
+    {
+      "concept": "hidden layers",
+      "search_query": "hidden layer representation learning",
+      "papers": [
+        {
+          "title": "Learning Cross-Lingual Sentence Representations via a Multi-task Dual-Encoder Model",
+          "url": "http://arxiv.org/abs/1810.12836v4"
+        },
+        {
+          "title": "On the Interpretability and Evaluation of Graph Representation Learning",
+          "url": "http://arxiv.org/abs/1910.03081v1"
+        }
+      ]
+    }
+  ]
+}

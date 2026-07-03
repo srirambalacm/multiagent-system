@@ -33,13 +33,16 @@ def classify(prompt: str) -> str:
 def _classify_video_intent(prompt: str) -> str:
     """A YouTube URL is present — decide RESEARCH vs WALKTHROUGH."""
     instruction = (
-        "A user shared a YouTube video. Decide what they want:\n"
-        "RESEARCH - they want to understand the topic deeply: find related papers, "
-        "build a concept map, learn around the subject\n"
-        "WALKTHROUGH - they want to navigate the video itself: key moments, "
-        "timestamps, which parts to watch\n"
-        "Reply with EXACTLY ONE word: RESEARCH or WALKTHROUGH.\n\n"
-        f"Request: {prompt}\n\nLabel:"
+        "A user shared a YouTube video. Classify their intent as exactly one word.\n"
+        "RESEARCH: they want to learn the subject in depth — related papers, concepts, "
+        "background reading, a concept map. Keywords: understand, learn, papers, research, concepts.\n"
+        "WALKTHROUGH: they want to navigate THIS video efficiently — which parts to watch, "
+        "key moments, timestamps, skip to the important bits. Keywords: walk through, key moments, "
+        "timestamps, watch, parts.\n"
+        "If they want to go BEYOND the video to the broader topic, choose RESEARCH. "
+        "If they want to move THROUGH the video itself, choose WALKTHROUGH.\n"
+        "Reply with exactly one word: RESEARCH or WALKTHROUGH.\n\n"
+        f"Request: {prompt}\n\nAnswer:"
     )
     try:
         answer = ask_gemini(instruction).strip().upper()
@@ -49,13 +52,11 @@ def _classify_video_intent(prompt: str) -> str:
             return "RESEARCH"
     except Exception:
         pass
-    # Fallback keyword split
     p = prompt.lower()
-    walk = ["walk", "key moment", "timestamp", "important part", "which part", "navigate", "skip to"]
+    walk = ["walk", "key moment", "timestamp", "important part", "which part", "navigate", "skip to", "watch"]
     if any(w in p for w in walk):
         return "WALKTHROUGH"
-    return "RESEARCH"  # default video intent
-
+    return "RESEARCH"
 
 def classify_keywords(prompt: str) -> str:
     """Keyword router — fallback when the LLM is unavailable."""

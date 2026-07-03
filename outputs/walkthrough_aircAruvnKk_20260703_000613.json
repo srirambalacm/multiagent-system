@@ -1,0 +1,61 @@
+{
+  "source_video": "https://www.youtube.com/watch?v=aircAruvnKk",
+  "moments": [
+    {
+      "concept": "The challenge of computer digit recognition",
+      "timestamp": "0:49",
+      "timestamp_seconds": 49,
+      "why": "It highlights the significant difficulty for computers to perform a task effortless for humans, motivating the need for neural networks.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=49s"
+    },
+    {
+      "concept": "What a neural network actually is",
+      "timestamp": "1:15",
+      "timestamp_seconds": 75,
+      "why": "This states the core objective of the video, to demystify neural networks by explaining their underlying mathematical structure.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=75s"
+    },
+    {
+      "concept": "Neuron as a numerical unit",
+      "timestamp": "2:52",
+      "timestamp_seconds": 172,
+      "why": "It defines the fundamental, simple computational unit that holds a number between 0 and 1, forming the basis of the entire neural network.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=172s"
+    },
+    {
+      "concept": "Layered structure of neural networks",
+      "timestamp": "3:36",
+      "timestamp_seconds": 216,
+      "why": "This describes the essential architectural organization of neurons into input, hidden, and output layers, allowing information to be processed in stages.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=216s"
+    },
+    {
+      "concept": "Information flow through activations",
+      "timestamp": "4:33",
+      "timestamp_seconds": 273,
+      "why": "This explains the core operational mechanism by which the network processes input, where activations in one layer determine those in the next.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=273s"
+    },
+    {
+      "concept": "Conceptual purpose of hidden layers",
+      "timestamp": "5:48",
+      "timestamp_seconds": 348,
+      "why": "It provides an intuitive understanding of how intermediate layers can break down complex recognition tasks into simpler, hierarchical feature detections like edges or loops.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=348s"
+    },
+    {
+      "concept": "Weights in neural connections",
+      "timestamp": "9:08",
+      "timestamp_seconds": 548,
+      "why": "Weights are introduced as the primary adjustable parameters that determine the strength and influence of connections between neurons, crucial for recognizing patterns.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=548s"
+    },
+    {
+      "concept": "Bias in neural activation",
+      "timestamp": "11:11",
+      "timestamp_seconds": 671,
+      "why": "Bias is an additional adjustable parameter that sets the activation threshold for a neuron, influencing when it becomes meaningfully active regardless of the weighted sum.",
+      "jump_url": "https://www.youtube.com/watch?v=aircAruvnKk&t=671s"
+    }
+  ]
+}

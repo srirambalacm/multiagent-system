@@ -1,0 +1,92 @@
+{
+  "goal": "find me papers to understand this video: https://www.youtube.com/watch?v=aircAruvnKk",
+  "source_video": "https://www.youtube.com/watch?v=aircAruvnKk",
+  "topic": "neural networks",
+  "concepts": [
+    "neural networks",
+    "handwritten digit recognition",
+    "neuron",
+    "activation",
+    "input layer",
+    "hidden layers",
+    "output layer",
+    "weights",
+    "bias",
+    "weighted sum",
+    "activation function",
+    "sigmoid function",
+    "hierarchical feature representation"
+  ],
+  "mind_map": [
+    {
+      "concept": "neural networks",
+      "search_query": "neural networks fundamentals",
+      "papers": [
+        {
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "url": "http://arxiv.org/abs/2306.14753v1"
+        },
+        {
+          "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+          "url": "http://arxiv.org/abs/2307.05639v2"
+        }
+      ]
+    },
+    {
+      "concept": "handwritten digit recognition",
+      "search_query": "handwritten digit recognition neural",
+      "papers": [
+        {
+          "title": "Capsule-Based Persian/Arabic Robust Handwritten Digit Recognition Using EM Routing",
+          "url": "http://arxiv.org/abs/1912.03634v2"
+        },
+        {
+          "title": "HMM-based Indic Handwritten Word Recognition using Zone Segmentation",
+          "url": "http://arxiv.org/abs/1708.00227v1"
+        }
+      ]
+    },
+    {
+      "concept": "neuron",
+      "search_query": "artificial neuron model",
+      "papers": [
+        {
+          "title": "Quantum control in artificial neurons with superconductor-ionic memory inserted in the feedback",
+          "url": "http://arxiv.org/abs/2401.00958v1"
+        },
+        {
+          "title": "The Artificial Scientist: Logicist, Emergentist, and Universalist Approaches to Artificial General Intelligence",
+          "url": "http://arxiv.org/abs/2110.01831v1"
+        }
+      ]
+    },
+    {
+      "concept": "activation",
+      "search_query": "activation function neural networks",
+      "papers": [
+        {
+          "title": "Optimal hierarchical modular topologies for producing limited sustained activation of neural networks",
+          "url": "http://arxiv.org/abs/1003.3081v1"
+        },
+        {
+          "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+          "url": "http://arxiv.org/abs/1901.06610v2"
+        }
+      ]
+    },
+    {
+      "concept": "input layer",
+      "search_query": "neural network input layer",
+      "papers": [
+        {
+          "title": "A Tutorial about Random Neural Networks in Supervised Learning",
+          "url": "http://arxiv.org/abs/1609.04846v1"
+        },
+        {
+          "title": "Predicting concentration levels of air pollutants by transfer learning and recurrent neural network",
+          "url": "http://arxiv.org/abs/2502.01654v1"
+        }
+      ]
+    }
+  ]
+}

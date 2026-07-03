@@ -1,0 +1,52 @@
+{
+  "goal": "can you help me learn what this video teaches: https://www.youtube.com/watch?v=aircAruvnKk",
+  "source_video": "https://www.youtube.com/watch?v=aircAruvnKk",
+  "topic": "handwritten digit recognition",
+  "concepts": [
+    "handwritten digit recognition",
+    "neural networks",
+    "neurons",
+    "activations",
+    "network layers",
+    "weights",
+    "bias",
+    "weighted sum",
+    "sigmoid function"
+  ],
+  "mind_map": [
+    {
+      "concept": "handwritten digit recognition",
+      "search_query": "handwritten digit recognition",
+      "papers": []
+    },
+    {
+      "concept": "neural networks",
+      "search_query": "neural networks deep learning",
+      "papers": [
+        {
+          "title": "A Learning Framework for n-bit Quantized Neural Networks toward FPGAs",
+          "url": "http://arxiv.org/abs/2004.02396v1"
+        },
+        {
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "url": "http://arxiv.org/abs/2306.14753v1"
+        }
+      ]
+    },
+    {
+      "concept": "neurons",
+      "search_query": "artificial neuron models",
+      "papers": []
+    },
+    {
+      "concept": "activations",
+      "search_query": "activation functions ReLU sigmoid",
+      "papers": []
+    },
+    {
+      "concept": "network layers",
+      "search_query": "neural network layer types",
+      "papers": []
+    }
+  ]
+}

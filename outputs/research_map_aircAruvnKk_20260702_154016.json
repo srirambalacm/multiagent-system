@@ -1,0 +1,84 @@
+{
+  "goal": "I want to understand this video: https://www.youtube.com/watch?v=aircAruvnKk",
+  "source_video": "https://www.youtube.com/watch?v=aircAruvnKk",
+  "topic": "neural networks",
+  "concepts": [
+    "neural networks",
+    "handwritten digit recognition",
+    "pixels",
+    "neurons",
+    "activation",
+    "layers",
+    "weights",
+    "bias",
+    "sigmoid function"
+  ],
+  "mind_map": [
+    {
+      "concept": "neural networks",
+      "search_query": "Deep neural networks",
+      "papers": [
+        {
+          "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+          "url": "http://arxiv.org/abs/2306.14753v1"
+        },
+        {
+          "title": "On the approximation of rough functions with deep neural networks",
+          "url": "http://arxiv.org/abs/1912.06732v2"
+        }
+      ]
+    },
+    {
+      "concept": "handwritten digit recognition",
+      "search_query": "MNIST neural networks",
+      "papers": [
+        {
+          "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+          "url": "http://arxiv.org/abs/2307.05639v2"
+        },
+        {
+          "title": "Towards Dropout Training for Convolutional Neural Networks",
+          "url": "http://arxiv.org/abs/1512.00242v1"
+        }
+      ]
+    },
+    {
+      "concept": "pixels",
+      "search_query": "Pixel representation neural networks",
+      "papers": [
+        {
+          "title": "Hierarchical Attentional Hybrid Neural Networks for Document Classification",
+          "url": "http://arxiv.org/abs/1901.06610v2"
+        },
+        {
+          "title": "A Neural Network-Evolutionary Computational Framework for Remaining Useful Life Estimation of Mechanical Systems",
+          "url": "http://arxiv.org/abs/1905.05918v1"
+        }
+      ]
+    },
+    {
+      "concept": "neurons",
+      "search_query": "Artificial neural units",
+      "papers": [
+        {
+          "title": "The Artificial Scientist: Logicist, Emergentist, and Universalist Approaches to Artificial General Intelligence",
+          "url": "http://arxiv.org/abs/2110.01831v1"
+        },
+        {
+          "title": "An Introductory Review of Spiking Neural Network and Artificial Neural Network: From Biological Intelligence to Artificial Intelligence",
+          "url": "http://arxiv.org/abs/2204.07519v1"
+        }
+      ]
+    },
+    {
+      "concept": "activation",
+      "search_query": "Activation function neural networks",
+      "papers": [
+        {
+          "title": "Optimal hierarchical modular topologies for producing limited sustained activation of neural networks",
+          "url": "http://arxiv.org/abs/1003.3081v1"
+        }
+      ]
+    }
+  ]
+}

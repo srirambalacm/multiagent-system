@@ -8,3 +8,5 @@ __pycache__/
 # Virtual environments
 .venv/
 multiagentvenv/
+.vscode/
+outputs/
